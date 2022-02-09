@@ -1,9 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    width: 1200px;
+    width: 1500px;
     height: 100%;
     margin: 0 auto;
     padding-top: 5px;
     font-family: 'Roboto', serif;
+}
+
+.App {
+    display: flex;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.addBtn, .delBtn{
+    width: 250px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.addBtn + .delBtn {
+    margin-left: 15px;
 }

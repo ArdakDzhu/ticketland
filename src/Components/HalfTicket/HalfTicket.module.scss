@@ -1,0 +1,73 @@
+.departureAndArrival {
+    display: flex;
+}
+
+.departure, .arrival {
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.uidDep {
+    margin: 0;
+    padding: 0;
+    color: #0c73fe;
+}
+
+.arrow {
+    display: inline-block;
+    margin: 0;
+    padding-right: 5px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #0c73fe;
+}
+
+.timeAndDate {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+
+    p{
+        margin: 0;
+    }
+}
+
+.transfer {
+    font-size: 18px;
+    color: orange;
+}
+
+.blueDate {
+    color: #0c73fe;
+}
+
+.duration {
+    display: flex;
+}
+
+.clock {
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.airlines {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.lineMin{
+    width: 500px;
+    height: 2px;
+    border: 0px;
+    background-color: gray;
+}
+
+hr{
+    margin: 0;
+}
